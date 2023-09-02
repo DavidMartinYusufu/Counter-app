@@ -19,6 +19,9 @@ function incrementFunction() {
 }
 
 function decrementFunction() {
+  if (state.textContent == 0) {
+    return
+  }
   count -= 1;
   state.textContent = count;
 }
@@ -29,9 +32,14 @@ function resetFunction() {
 }
 
 function insertFunction() {
+  if(input.value == "") {
+    return
+  }
   count = input.value
   state.textContent = count
   input.value = ""
+  
+  console.log(input.value)
   // count = state.textContent
 }
 
