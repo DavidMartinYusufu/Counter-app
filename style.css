@@ -1,0 +1,48 @@
+body {
+    background-color: #f1eeee;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+button {
+    padding: 20px 40px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    /* background-color: rgb(88, 139, 197); */
+    background-color: blue;
+    color: #fff;
+}
+
+
+button:hover {
+    /* background-color: blue; */
+    background-color: rgb(8, 85, 173);
+
+}
+#value {
+    font-size: 100px;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.container2 {
+    margin-top: 40px;
+}
+
+.container2 input{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #aca9a9;
+    /* margin-right: 15px; */
+}
